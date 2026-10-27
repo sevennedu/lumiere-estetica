@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" role="img" aria-label="Massagem modeladora">
+  <rect width="600" height="400" fill="#FAF6F2"/>
+  <circle cx="300" cy="182" r="136" fill="#F4E7DE"/>
+  <circle cx="300" cy="182" r="136" fill="none" stroke="#C9A27E" stroke-width="1.2" opacity=".45"/>
+  <path d="M56 126V86a30 30 0 0 1 30-30h40" fill="none" stroke="#C9A27E" stroke-width="1.5" opacity=".5"/>
+  <path d="M544 274v40a30 30 0 0 1-30 30h-40" fill="none" stroke="#C9A27E" stroke-width="1.5" opacity=".5"/>
+
+  <ellipse cx="300" cy="258" rx="98" ry="26" fill="#D9B7A6" stroke="#C9A27E" stroke-width="2"/>
+  <ellipse cx="300" cy="220" rx="82" ry="22" fill="#E8CFC4" stroke="#C9A27E" stroke-width="2"/>
+  <ellipse cx="300" cy="186" rx="64" ry="17" fill="#F0DCD1" stroke="#C9A27E" stroke-width="2"/>
+  <path d="M228 252c22 8 48 10 72 8M238 214c20 6 42 8 62 6M256 181c14 4 30 5 44 4" fill="none" stroke="#FAF6F2" stroke-width="3" stroke-linecap="round" opacity=".75"/>
+
+  <g fill="none" stroke="#C9A27E" stroke-width="2" stroke-linecap="round" opacity=".6">
+    <path d="M268 146c-8-12 8-18 0-30"/>
+    <path d="M300 140c-8-12 8-18 0-30"/>
+    <path d="M332 146c-8-12 8-18 0-30"/>
+  </g>
+
+  <path d="M352 168c10-10 26-12 38-4-8 12-24 16-38 4Z" fill="#E8CFC4" stroke="#C9A27E" stroke-width="1.5"/>
+  <path d="M356 168c10-2 20-2 30 0" fill="none" stroke="#C9A27E" stroke-width="1.2" opacity=".7"/>
+
+  <path d="M210 302c30 12 150 12 180 0" fill="none" stroke="#C9A27E" stroke-width="2" stroke-linecap="round" opacity=".4"/>
+  <g fill="#C9A27E">
+    <path d="M0-9C2-2 2-2 9 0 2 2 2 2 0 9-2 2-2 2-9 0-2-2-2-2 0-9Z" transform="translate(404 112)" opacity=".8"/>
+    <path d="M0-7C1-2 2-1 7 0 2 1 1 2 0 7-1 2-2 1-7 0-2-1-1-2 0-7Z" transform="translate(196 268)" opacity=".6"/>
+  </g>
+</svg>

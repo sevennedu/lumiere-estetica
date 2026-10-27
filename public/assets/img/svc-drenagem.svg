@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" role="img" aria-label="Drenagem linfática">
+  <rect width="600" height="400" fill="#FAF6F2"/>
+  <circle cx="300" cy="182" r="136" fill="#F4E7DE"/>
+  <circle cx="300" cy="182" r="136" fill="none" stroke="#C9A27E" stroke-width="1.2" opacity=".45"/>
+  <path d="M56 126V86a30 30 0 0 1 30-30h40" fill="none" stroke="#C9A27E" stroke-width="1.5" opacity=".5"/>
+  <path d="M544 274v40a30 30 0 0 1-30 30h-40" fill="none" stroke="#C9A27E" stroke-width="1.5" opacity=".5"/>
+
+  <g fill="none" stroke-linecap="round">
+    <path d="M232 90c50 38-40 84 10 122 40 30-40 62-14 96" stroke="#C9A27E" stroke-width="3"/>
+    <path d="M300 76c50 38-40 84 10 122 40 30-40 62-14 96" stroke="#C9A27E" stroke-width="3" opacity=".55"/>
+    <path d="M368 90c50 38-40 84 10 122 40 30-40 62-14 96" stroke="#C9A27E" stroke-width="3"/>
+  </g>
+
+  <g fill="#C9A27E">
+    <circle cx="232" cy="90" r="4.5"/>
+    <circle cx="368" cy="90" r="4.5"/>
+    <circle cx="300" cy="76" r="3.5" opacity=".6"/>
+    <circle cx="242" cy="212" r="3" opacity=".7"/>
+    <circle cx="358" cy="212" r="3" opacity=".7"/>
+  </g>
+
+  <path d="M300 296c0 0-16 19-16 30a16 16 0 0 0 32 0c0-11-16-30-16-30Z" fill="#E8CFC4" stroke="#C9A27E" stroke-width="2"/>
+  <path d="M292 326c0 6 4 10 9 10" fill="none" stroke="#FAF6F2" stroke-width="3" stroke-linecap="round" opacity=".9"/>
+
+  <path d="M204 306c-16-8-26-24-26-40M396 306c16-8 26-24 26-40" fill="none" stroke="#E8CFC4" stroke-width="3" stroke-linecap="round"/>
+  <g fill="#E8CFC4" stroke="#C9A27E" stroke-width="1.2">
+    <path d="M172 300c0-16 8-28 20-34-2 16-8 28-20 34Z"/>
+    <path d="M428 300c0-16-8-28-20-34 2 16 8 28 20 34Z"/>
+  </g>
+</svg>

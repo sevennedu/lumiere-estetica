@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" width="800" height="900" role="img" aria-label="Ilustração de interior de clínica de estética com arco, espelho e vaso">
+  <defs>
+    <linearGradient id="aboutBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FAF6F2"/>
+      <stop offset="1" stop-color="#F6EAE2"/>
+    </linearGradient>
+    <linearGradient id="aboutGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#C9A27E"/>
+      <stop offset="1" stop-color="#B08B68"/>
+    </linearGradient>
+    <path id="aboutLeaf" d="M0 0C-15-20-15-44 0-64C15-44 15-20 0 0Z"/>
+    <path id="aboutSpark" d="M0-10C2-3 3-2 10 0 3 2 2 3 0 10-2 3-3 2-10 0-3-2-2-3 0-10Z"/>
+  </defs>
+
+  <rect width="800" height="900" fill="url(#aboutBg)"/>
+  <circle cx="700" cy="140" r="210" fill="#F1E0D6" opacity=".55"/>
+  <circle cx="90" cy="790" r="170" fill="#F1E0D6" opacity=".45"/>
+
+  <path d="M120 810V370a280 280 0 0 1 560 0v440Z" fill="#F9F1EB" stroke="#C9A27E" stroke-width="2.5"/>
+  <path d="M136 810V372a264 264 0 0 1 528 0v438" fill="none" stroke="#E8CFC4" stroke-width="1.5"/>
+
+  <circle cx="400" cy="330" r="118" fill="#FAF6F2" stroke="#C9A27E" stroke-width="3"/>
+  <circle cx="400" cy="330" r="108" fill="none" stroke="#E8CFC4" stroke-width="1.5"/>
+  <path d="M330 302c18-38 58-56 94-50" fill="none" stroke="#E8CFC4" stroke-width="4" stroke-linecap="round"/>
+  <path d="M346 356c24 14 58 12 78-6" fill="none" stroke="#F1E0D6" stroke-width="3" stroke-linecap="round"/>
+
+  <path d="M400 562c-4-72 4-132-8-202-6-40 2-80 18-110" fill="none" stroke="url(#aboutGold)" stroke-width="2.5" stroke-linecap="round"/>
+  <g fill="#E8CFC4" stroke="#C9A27E" stroke-width="1.5">
+    <use href="#aboutLeaf" transform="translate(402 508) rotate(46) scale(.9)"/>
+    <use href="#aboutLeaf" transform="translate(396 452) rotate(-50) scale(.9)"/>
+    <use href="#aboutLeaf" transform="translate(390 396) rotate(44) scale(.85)"/>
+    <use href="#aboutLeaf" transform="translate(398 336) rotate(-48) scale(.8)"/>
+    <use href="#aboutLeaf" transform="translate(410 282) rotate(40) scale(.75)"/>
+  </g>
+  <circle cx="418" cy="252" r="5" fill="#C9A27E"/>
+
+  <path d="M372 690c-12-45-8-84 10-110h36c18 26 22 65 10 110Z" fill="#E8CFC4" stroke="#C9A27E" stroke-width="2"/>
+  <rect x="388" y="558" width="24" height="24" rx="4" fill="#E8CFC4" stroke="#C9A27E" stroke-width="2"/>
+  <path d="M382 640c12 8 24 8 36 0" fill="none" stroke="#FAF6F2" stroke-width="3" stroke-linecap="round" opacity=".9"/>
+
+  <rect x="235" y="690" width="330" height="13" rx="6" fill="url(#aboutGold)"/>
+  <rect x="258" y="703" width="7" height="98" rx="3" fill="#C9A27E" opacity=".85"/>
+  <rect x="535" y="703" width="7" height="98" rx="3" fill="#C9A27E" opacity=".85"/>
+  <path d="M265 748h270" stroke="#C9A27E" stroke-width="1.5" opacity=".5"/>
+
+  <g>
+    <rect x="474" y="630" width="44" height="60" rx="5" fill="#FAF6F2" stroke="#C9A27E" stroke-width="2"/>
+    <path d="M496 630v-8" stroke="#2E2A28" stroke-width="2" stroke-linecap="round"/>
+    <path d="M496 606c-8 8-6 16 0 16s8-8 0-16Z" fill="#C9A27E"/>
+    <path d="M496 618c0-6 0-10 0-12" stroke="#FAF6F2" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <rect x="302" y="636" width="34" height="54" rx="7" fill="#FAF6F2" stroke="#C9A27E" stroke-width="2"/>
+    <rect x="310" y="624" width="18" height="12" rx="3" fill="#C9A27E"/>
+    <path d="M319 624v-8h-6" fill="none" stroke="#C9A27E" stroke-width="2" stroke-linecap="round"/>
+    <path d="M310 660h18" stroke="#E8CFC4" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <rect x="270" y="762" width="260" height="9" rx="4" fill="#C9A27E" opacity=".85"/>
+
+  <g>
+    <rect x="300" y="708" width="120" height="18" rx="9" fill="#E8CFC4" stroke="#C9A27E" stroke-width="1.5"/>
+    <rect x="300" y="726" width="120" height="18" rx="9" fill="#F1E0D6" stroke="#C9A27E" stroke-width="1.5"/>
+    <rect x="300" y="744" width="120" height="18" rx="9" fill="#E8CFC4" stroke="#C9A27E" stroke-width="1.5"/>
+    <circle cx="404" cy="717" r="5" fill="none" stroke="#C9A27E" stroke-width="1.5"/>
+    <circle cx="404" cy="735" r="5" fill="none" stroke="#C9A27E" stroke-width="1.5"/>
+    <circle cx="404" cy="753" r="5" fill="none" stroke="#C9A27E" stroke-width="1.5"/>
+  </g>
+
+  <g>
+    <ellipse cx="590" cy="849" rx="46" ry="7" fill="#E8CFC4" opacity=".6"/>
+    <path d="M548 786h84l-10 62h-64Z" fill="#E8CFC4" stroke="#C9A27E" stroke-width="2"/>
+    <path d="M590 786c-2-42-18-70-44-88M590 786c4-38 20-64 44-80" fill="none" stroke="#C9A27E" stroke-width="2" stroke-linecap="round"/>
+    <g fill="#E8CFC4" stroke="#C9A27E" stroke-width="1.5">
+      <use href="#aboutLeaf" transform="translate(548 700) rotate(-40) scale(.75)"/>
+      <use href="#aboutLeaf" transform="translate(632 708) rotate(38) scale(.7)"/>
+      <use href="#aboutLeaf" transform="translate(566 748) rotate(-52) scale(.55)"/>
+      <use href="#aboutLeaf" transform="translate(618 754) rotate(50) scale(.55)"/>
+    </g>
+  </g>
+
+  <ellipse cx="400" cy="808" rx="190" ry="11" fill="#E8CFC4" opacity=".6"/>
+
+  <g fill="#E8CFC4" stroke="#C9A27E" stroke-width="1.5" opacity=".9">
+    <path d="M52 900c0-56 22-100 60-128-4 46-22 90-60 128Z"/>
+    <path d="M748 900c0-50-18-90-50-116 2 42 18 82 50 116Z"/>
+  </g>
+  <path d="M60 900c18-58 44-96 78-120" fill="none" stroke="#C9A27E" stroke-width="1.5" opacity=".7"/>
+  <path d="M742 900c-14-52-38-86-70-110" fill="none" stroke="#C9A27E" stroke-width="1.5" opacity=".7"/>
+
+  <use href="#aboutSpark" transform="translate(210 240)" fill="#C9A27E" opacity=".8"/>
+  <use href="#aboutSpark" transform="translate(596 430) scale(.7)" fill="#C9A27E" opacity=".7"/>
+  <circle cx="664" cy="250" r="4" fill="#C9A27E" opacity=".5"/>
+  <circle cx="146" cy="330" r="5" fill="#C9A27E" opacity=".45"/>
+</svg>

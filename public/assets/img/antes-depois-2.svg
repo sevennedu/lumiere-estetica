@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" role="img" aria-label="Antes e depois do preenchimento labial">
+  <defs>
+    <linearGradient id="ad2skin" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="800" y2="0">
+      <stop offset="0" stop-color="#DDCEC5"/>
+      <stop offset=".5" stop-color="#DDCEC5"/>
+      <stop offset=".5" stop-color="#F4D9CA"/>
+      <stop offset="1" stop-color="#F4D9CA"/>
+    </linearGradient>
+    <linearGradient id="ad2lip" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="800" y2="0">
+      <stop offset="0" stop-color="#B39287"/>
+      <stop offset=".5" stop-color="#B39287"/>
+      <stop offset=".5" stop-color="#C4715D"/>
+      <stop offset="1" stop-color="#C4715D"/>
+    </linearGradient>
+    <linearGradient id="ad2lipLow" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="800" y2="0">
+      <stop offset="0" stop-color="#A9887D"/>
+      <stop offset=".5" stop-color="#A9887D"/>
+      <stop offset=".5" stop-color="#B96450"/>
+      <stop offset="1" stop-color="#B96450"/>
+    </linearGradient>
+    <radialGradient id="ad2glow" gradientUnits="userSpaceOnUse" cx="470" cy="170" r="250">
+      <stop offset="0" stop-color="#F7E3D6" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#F7E3D6" stop-opacity="0"/>
+    </radialGradient>
+    <path id="ad2spark" d="M0-12C2-3 3-2 12 0 3 2 2 3 0 12-2 3-3 2-12 0-3-2-2-3 0-12Z"/>
+  </defs>
+
+  <rect width="400" height="400" fill="#F1EAE4"/>
+  <rect x="400" width="400" height="400" fill="#FAF6F2"/>
+  <rect x="400" width="400" height="400" fill="url(#ad2glow)"/>
+
+  <path d="M40 400c70-100 200-120 360-120s290 20 360 120Z" fill="url(#ad2skin)"/>
+  <ellipse cx="400" cy="344" rx="170" ry="26" fill="#C9A27E" opacity=".12"/>
+
+  <path d="M180 206C220 140 320 132 400 176 480 132 580 140 620 206 580 300 220 300 180 206Z" fill="url(#ad2lip)" stroke="#C9A27E" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M180 206C260 188 330 208 400 212 470 208 540 188 620 206 560 280 240 280 180 206Z" fill="url(#ad2lipLow)"/>
+  <path d="M180 206C260 188 330 208 400 212 470 208 540 188 620 206" fill="none" stroke="#B08B68" stroke-width="1.5" stroke-linecap="round" opacity=".6"/>
+
+  <ellipse cx="486" cy="250" rx="24" ry="6" fill="#FAF6F2" opacity=".3" transform="rotate(-8 486 250)"/>
+  <ellipse cx="440" cy="240" rx="12" ry="4" fill="#FAF6F2" opacity=".2" transform="rotate(-10 440 240)"/>
+  <path d="M448 176c20-8 44-4 58 8" fill="none" stroke="#FAF6F2" stroke-width="3" stroke-linecap="round" opacity=".4"/>
+
+  <g fill="none" stroke="#8E6F64" stroke-width="1.3" stroke-linecap="round" opacity=".45">
+    <path d="M300 198v12M326 194v14M352 196v12M378 196v10"/>
+    <path d="M290 250v10M316 254v10M342 252v10"/>
+  </g>
+
+  <g fill="#C9A27E">
+    <use href="#ad2spark" transform="translate(510 120)" opacity=".9"/>
+    <use href="#ad2spark" transform="translate(556 214) scale(.65)" opacity=".8"/>
+    <use href="#ad2spark" transform="translate(486 310) scale(.5)" opacity=".7"/>
+  </g>
+
+  <rect x="399" y="24" width="2" height="352" fill="#C9A27E" opacity=".8"/>
+  <path d="M391 24h18M391 376h18" stroke="#C9A27E" stroke-width="2" stroke-linecap="round"/>
+</svg>

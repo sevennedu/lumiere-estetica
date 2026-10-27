@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Painel administrativo — Lumière</title>
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#FAF6F2">
+  <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/pages.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+  <header class="site-header">
+    <nav class="container nav" aria-label="Principal">
+      <a class="brand" href="/" aria-label="Lumière Estética — site"><img src="/assets/img/logo.svg" alt="Lumière Estética"></a>
+      <button class="btn btn--ghost btn--sm" type="button" id="logout-btn" hidden>Sair</button>
+    </nav>
+  </header>
+
+  <main id="conteudo" class="page-main">
+    <div class="container">
+      <!-- Login -->
+      <section id="login-view" class="admin-login">
+        <div class="page-head" style="padding-bottom:1rem"><span class="eyebrow">Área restrita</span><h1 style="font-size:2.4rem">Painel administrativo</h1></div>
+        <form class="form" id="login-form" novalidate>
+          <div id="login-alert" role="alert"></div>
+          <div class="field"><label for="pw">Senha</label><input id="pw" type="password" autocomplete="current-password" required><div class="err"></div></div>
+          <button class="btn btn--dark" type="submit" style="width:100%">Entrar</button>
+        </form>
+      </section>
+
+      <!-- Painel -->
+      <section id="panel-view" hidden>
+        <div class="page-head" style="text-align:left;padding-bottom:1rem"><h1 style="font-size:2.4rem">Agendamentos</h1></div>
+
+        <div class="stats" id="stats"></div>
+
+        <div class="admin-bar">
+          <div class="field"><label for="f-date">Data</label><input type="date" id="f-date"></div>
+          <div class="field">
+            <label for="f-status">Status</label>
+            <select id="f-status">
+              <option value="">Todos</option>
+              <option value="confirmado">Confirmado</option>
+              <option value="concluído">Concluído</option>
+              <option value="cancelado">Cancelado</option>
+            </select>
+          </div>
+          <button class="btn btn--ghost btn--sm" type="button" id="clear-btn">Limpar filtros</button>
+          <button class="btn btn--dark btn--sm" type="button" id="refresh-btn">Atualizar</button>
+        </div>
+
+        <div id="panel-alert" role="alert"></div>
+        <div class="table-wrap">
+          <table class="tbl">
+            <thead><tr><th>Data / hora</th><th>Cliente</th><th>Serviço</th><th>Profissional</th><th>Código</th><th>Status</th></tr></thead>
+            <tbody id="rows"><tr><td colspan="6" class="empty">Carregando…</td></tr></tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script src="/js/common.js"></script>
+  <script src="/js/admin.js"></script>
+</body>
+</html>

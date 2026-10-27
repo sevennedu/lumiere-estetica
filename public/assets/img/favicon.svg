@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Lumière Estética">
+  <rect width="64" height="64" rx="14" fill="#FAF6F2"/>
+  <path d="M15 51V30a17 17 0 0 1 34 0v21" fill="none" stroke="#C9A27E" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="32" cy="31" r="8" fill="#E8CFC4"/>
+  <circle cx="32" cy="31" r="8" fill="none" stroke="#C9A27E" stroke-width="1.2"/>
+  <path d="M32 51V41" stroke="#C9A27E" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="32" cy="52" r="2" fill="#C9A27E"/>
+</svg>

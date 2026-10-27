@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" role="img" aria-label="Preenchimento labial">
+  <rect width="600" height="400" fill="#FAF6F2"/>
+  <circle cx="300" cy="182" r="136" fill="#F4E7DE"/>
+  <circle cx="300" cy="182" r="136" fill="none" stroke="#C9A27E" stroke-width="1.2" opacity=".45"/>
+  <path d="M56 126V86a30 30 0 0 1 30-30h40" fill="none" stroke="#C9A27E" stroke-width="1.5" opacity=".5"/>
+  <path d="M544 274v40a30 30 0 0 1-30 30h-40" fill="none" stroke="#C9A27E" stroke-width="1.5" opacity=".5"/>
+
+  <path d="M190 196c34-56 78-54 110-22 32-32 76-34 110 22-42 66-178 66-220 0Z" fill="#E8CFC4" stroke="#C9A27E" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M190 196c42 66 178 66 220 0-44 18-74 6-110 6-36 0-66 12-110-6Z" fill="#E3C3B3"/>
+  <path d="M190 196c50 16 170 16 220 0" fill="none" stroke="#C9A27E" stroke-width="2" stroke-linecap="round" opacity=".75"/>
+  <path d="M250 214c22 14 60 16 80 6" fill="none" stroke="#FAF6F2" stroke-width="3" stroke-linecap="round" opacity=".5"/>
+  <path d="M254 166c10-6 22-4 28 4M318 170c6-8 18-10 28-4" fill="none" stroke="#FAF6F2" stroke-width="2.5" stroke-linecap="round" opacity=".45"/>
+
+  <g fill="#C9A27E">
+    <path d="M0-11C2-3 3-2 11 0 3 2 2 3 0 11-2 3-3 2-11 0-3-2-2-3 0-11Z" transform="translate(424 116)"/>
+    <path d="M0-8C1-2 2-2 8 0 2 2 2 2 0 8-2 2-2 2-8 0-2-2-2-2 0-8Z" transform="translate(178 252)" opacity=".7"/>
+  </g>
+  <circle cx="432" cy="244" r="4" fill="#C9A27E" opacity=".5"/>
+  <path d="M214 292c52 18 120 18 172 0" fill="none" stroke="#C9A27E" stroke-width="1.8" stroke-linecap="round" opacity=".35"/>
+</svg>

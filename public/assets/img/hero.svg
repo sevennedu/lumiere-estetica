@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Ilustração de perfil feminino com arco, sol e folhagens">
+  <defs>
+    <linearGradient id="heroBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FAF6F2"/>
+      <stop offset="1" stop-color="#F5E8DF"/>
+    </linearGradient>
+    <linearGradient id="heroSkin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F5E1D5"/>
+      <stop offset="1" stop-color="#EBCFC0"/>
+    </linearGradient>
+    <linearGradient id="heroGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#C9A27E"/>
+      <stop offset="1" stop-color="#B08B68"/>
+    </linearGradient>
+    <path id="heroLeaf" d="M0 0C-14-18-14-40 0-58C14-40 14-18 0 0Z"/>
+    <path id="heroSpark" d="M0-12C2-3 3-2 12 0 3 2 2 3 0 12-2 3-3 2-12 0-3-2-2-3 0-12Z"/>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#heroBg)"/>
+  <circle cx="1075" cy="430" r="330" fill="#EED8CA" opacity=".9"/>
+  <circle cx="1075" cy="430" r="330" fill="none" stroke="#C9A27E" stroke-width="1.5" opacity=".3"/>
+  <path d="M810 840V400a265 265 0 0 1 530 0v440" fill="none" stroke="#C9A27E" stroke-width="2.5" opacity=".4"/>
+  <path d="M826 840V402a249 249 0 0 1 498 0v438" fill="none" stroke="#E8CFC4" stroke-width="1.5" opacity=".7"/>
+
+  <g opacity=".2" stroke="#C9A27E" stroke-width="1.2" fill="none">
+    <circle cx="300" cy="690" r="205"/>
+    <circle cx="300" cy="690" r="160"/>
+  </g>
+
+  <g>
+    <circle cx="1192" cy="352" r="54" fill="#3F332D"/>
+    <path d="M1080 236c76 4 118 64 122 144 3 60-15 115-40 150-25 30-55 40-75 30V300c-30-8-60-6-85 6 12-36 40-62 78-70Z" fill="#3F332D"/>
+    <path d="M1166 316c14 6 24 20 26 38M1196 300c18 10 28 30 26 52" fill="none" stroke="#C9A27E" stroke-width="1.5" opacity=".35" stroke-linecap="round"/>
+    <path d="M1180 398c14 54 4 116-18 160" fill="none" stroke="#C9A27E" stroke-width="1.5" opacity=".25" stroke-linecap="round"/>
+
+    <path d="M982 520h110l2 120c5 28 14 46 28 58H990c10-16 16-40 18-68Z" fill="url(#heroSkin)"/>
+
+    <path d="M826 900c20-122 98-208 190-226h88c96 18 172 104 192 226Z" fill="#FAF6F2" stroke="#C9A27E" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M884 900c12-82 46-146 104-182l30 18c-52 34-82 94-92 164Z" fill="#F3E2D9" opacity=".7"/>
+    <path d="M1006 674c28 44 70 44 98 0" fill="none" stroke="#C9A27E" stroke-width="2" stroke-linecap="round"/>
+    <path d="M986 700c22 8 50 8 72 0" fill="none" stroke="#C9A27E" stroke-width="1.5" stroke-linecap="round" opacity=".5"/>
+    <path d="M972 790c18 36 24 72 20 110M1128 784c-10 42-10 78-2 116" fill="none" stroke="#E8CFC4" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="1056" cy="720" r="4" fill="#C9A27E"/>
+
+    <path d="M1080 240c-75 4-122 60-124 128-1 24-12 38-24 52-12 14-16 30-4 36 10 5 14 12 10 21-4 10-2 19 8 23 9 3 10 13 0 20-9 7-8 22 6 31 28 20 62 21 90 5 24-14 36-38 38-66Z" fill="url(#heroSkin)"/>
+    <path d="M1080 240c-42 2-78 22-96 52 30-14 62-14 96-4Z" fill="#3F332D"/>
+    <path d="M980 552c26 24 68 26 98 6v28c-32 20-74 12-100-12Z" fill="#DDB6A4" opacity=".45"/>
+    <path d="M1068 246c22 54 28 120 24 174-3 40-8 78-6 110-6 14-16 18-24 10 2-42-2-80-6-120-5-56-3-120 12-174Z" fill="#3F332D"/>
+    <path d="M1080 282c8 48 8 96 2 136" fill="none" stroke="#C9A27E" stroke-width="1.5" opacity=".28" stroke-linecap="round"/>
+    <path d="M1082 300c8 44 8 92 2 134" fill="none" stroke="#C9A27E" stroke-width="1.5" opacity=".3" stroke-linecap="round"/>
+    <path d="M1060 398c18-5 27 12 20 27-4 10-13 13-20 6Z" fill="url(#heroSkin)" stroke="#C9A27E" stroke-width="1.5" stroke-linejoin="round"/>
+    <path d="M1066 406c8 0 12 6 10 13" fill="none" stroke="#C9A27E" stroke-width="1.2" opacity=".8" stroke-linecap="round"/>
+    <circle cx="1072" cy="442" r="4.5" fill="#C9A27E"/>
+
+    <path d="M962 372c14-10 34-9 46-1" fill="none" stroke="#4A3D36" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M966 403c12 9 30 9 40-1" fill="none" stroke="#2E2A28" stroke-width="3" stroke-linecap="round"/>
+    <path d="M974 410l-4 8M986 413v9M997 410l4 8" fill="none" stroke="#2E2A28" stroke-width="2" stroke-linecap="round"/>
+    <path d="M930 451c5 5 11 5 14 0" fill="none" stroke="#C9A27E" stroke-width="2" stroke-linecap="round"/>
+    <path d="M936 512c8-7 16-6 21-1-6 6-13 7-21 1Z" fill="#C9A27E"/>
+    <path d="M936 514c8 12 17 10 21 0-7 7-14 7-21 0Z" fill="#B08B68" opacity=".8"/>
+    <ellipse cx="1002" cy="468" rx="24" ry="12" fill="#E8CFC4" opacity=".55"/>
+  </g>
+
+  <g fill="none" stroke="url(#heroGold)" stroke-width="2.5" stroke-linecap="round">
+    <path d="M180 862c35-82 65-162 122-256"/>
+    <path d="M120 862c10-62 30-104 55-134"/>
+  </g>
+  <g fill="#E8CFC4" stroke="#C9A27E" stroke-width="1.5">
+    <use href="#heroLeaf" transform="translate(298 632) rotate(45)"/>
+    <use href="#heroLeaf" transform="translate(282 678) rotate(-50)"/>
+    <use href="#heroLeaf" transform="translate(258 724) rotate(45)"/>
+    <use href="#heroLeaf" transform="translate(232 778) rotate(-50)"/>
+    <use href="#heroLeaf" transform="translate(206 832) rotate(45)"/>
+    <use href="#heroLeaf" transform="translate(168 760) rotate(-38) scale(.8)"/>
+    <use href="#heroLeaf" transform="translate(152 812) rotate(42) scale(.8)"/>
+  </g>
+  <circle cx="310" cy="600" r="6" fill="#C9A27E"/>
+  <circle cx="178" cy="716" r="5" fill="#C9A27E" opacity=".8"/>
+
+  <use href="#heroSpark" transform="translate(760 760)" fill="#C9A27E" opacity=".8"/>
+  <use href="#heroSpark" transform="translate(1430 690) scale(.8)" fill="#C9A27E" opacity=".7"/>
+  <use href="#heroSpark" transform="translate(1470 250) scale(.55)" fill="#C9A27E" opacity=".6"/>
+  <circle cx="772" cy="300" r="4" fill="#C9A27E" opacity=".5"/>
+  <circle cx="1392" cy="520" r="5" fill="#C9A27E" opacity=".45"/>
+</svg>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Meus agendamentos — Lumière Estética Avançada</title>
+  <meta name="theme-color" content="#FAF6F2">
+  <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/pages.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+  <header class="site-header">
+    <nav class="container nav" aria-label="Principal">
+      <a class="brand" href="/" aria-label="Lumière Estética — início"><img src="/assets/img/logo.svg" alt="Lumière Estética"></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu"><span></span></button>
+      <ul class="nav-links" id="menu">
+        <li><a href="/">Início</a></li>
+        <li><a href="/#servicos">Serviços</a></li>
+        <li><a href="/meus-agendamentos.html" aria-current="page">Meus agendamentos</a></li>
+        <li><a class="btn btn--gold btn--sm" href="/agendar.html">Agendar</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="conteudo" class="page-main">
+    <div class="container">
+      <div class="page-head">
+        <span class="eyebrow">Consulta</span>
+        <h1>Meus agendamentos</h1>
+        <p class="lead">Informe o e-mail e o telefone usados no agendamento.</p>
+      </div>
+
+      <div class="narrow">
+        <form class="form" id="lookup-form" novalidate>
+          <div id="lookup-alert" role="alert"></div>
+          <div class="field"><label for="l-email">E-mail</label><input id="l-email" name="email" type="email" autocomplete="email" required><div class="err"></div></div>
+          <div class="field"><label for="l-phone">Telefone</label><input id="l-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="(11) 99999-9999" required><div class="err"></div></div>
+          <button class="btn btn--dark" type="submit" style="width:100%">Buscar agendamentos</button>
+        </form>
+      </div>
+
+      <div class="narrow">
+        <div class="appt-list" id="results" aria-live="polite"></div>
+      </div>
+    </div>
+  </main>
+
+  <div class="modal-back" id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal">
+      <h3 id="modal-title">Cancelar agendamento?</h3>
+      <p id="modal-text" class="lead"></p>
+      <div class="modal-actions">
+        <button class="btn btn--ghost btn--sm" type="button" id="modal-no">Manter</button>
+        <button class="btn btn--danger btn--sm" type="button" id="modal-yes">Sim, cancelar</button>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container"><p class="copy" style="border:0;margin:0;padding:0">© <span data-year></span> Lumière Estética Avançada. Todos os direitos reservados.</p></div>
+  </footer>
+
+  <script src="/js/common.js"></script>
+  <script src="/js/meus.js"></script>
+</body>
+</html>

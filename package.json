@@ -1,0 +1,15 @@
+{
+  "name": "lumiere-estetica",
+  "version": "1.0.0",
+  "description": "Sistema web e agendamento online para Lumière Estética Avançada",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

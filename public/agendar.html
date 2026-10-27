@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agendar — Lumière Estética Avançada</title>
+  <meta name="description" content="Agende seu tratamento online em 4 passos simples.">
+  <meta name="theme-color" content="#FAF6F2">
+  <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/pages.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+  <header class="site-header">
+    <nav class="container nav" aria-label="Principal">
+      <a class="brand" href="/" aria-label="Lumière Estética — início"><img src="/assets/img/logo.svg" alt="Lumière Estética"></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu"><span></span></button>
+      <ul class="nav-links" id="menu">
+        <li><a href="/">Início</a></li>
+        <li><a href="/#servicos">Serviços</a></li>
+        <li><a href="/meus-agendamentos.html">Meus agendamentos</a></li>
+        <li><a class="btn btn--gold btn--sm" href="/agendar.html" aria-current="page">Agendar</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="conteudo" class="page-main">
+    <div class="container">
+      <div class="page-head">
+        <span class="eyebrow">Agendamento online</span>
+        <h1>Reserve o seu momento</h1>
+      </div>
+
+      <ol class="stepper" id="stepper" aria-label="Etapas do agendamento">
+        <li class="active"><span>Serviço</span></li>
+        <li><span>Profissional</span></li>
+        <li><span>Data e hora</span></li>
+        <li><span>Seus dados</span></li>
+      </ol>
+
+      <div class="wizard">
+        <div id="global-alert" role="alert"></div>
+
+        <section class="step active" data-step="1" aria-labelledby="t1">
+          <h2 id="t1">Qual tratamento você deseja?</h2>
+          <div class="options" id="services-list"><div class="skeleton" style="min-height:90px"></div><div class="skeleton" style="min-height:90px"></div></div>
+        </section>
+
+        <section class="step" data-step="2" aria-labelledby="t2">
+          <h2 id="t2">Com quem prefere ser atendida?</h2>
+          <div class="options" id="pros-list"></div>
+        </section>
+
+        <section class="step" data-step="3" aria-labelledby="t3">
+          <h2 id="t3">Escolha o dia e o horário</h2>
+          <div class="datetime">
+            <div class="date-box">
+              <div class="field" style="margin:0">
+                <label for="date">Data</label>
+                <input type="date" id="date">
+              </div>
+              <p class="hint">Atendemos de segunda a sexta (9h–19h) e sábado (9h–14h).</p>
+            </div>
+            <div class="slots-box" aria-live="polite">
+              <h3 id="slots-title">Horários disponíveis</h3>
+              <div id="slots"><p class="empty">Selecione uma data para ver os horários.</p></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="step" data-step="4" aria-labelledby="t4">
+          <h2 id="t4">Quase lá! Seus dados</h2>
+          <div class="narrow">
+            <div class="summary"><dl id="summary"></dl></div>
+            <form class="form" id="booking-form" novalidate>
+              <div class="field"><label for="f-name">Nome completo</label><input id="f-name" name="name" autocomplete="name" required><div class="err"></div></div>
+              <div class="row2">
+                <div class="field"><label for="f-phone">Telefone / WhatsApp</label><input id="f-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="(11) 99999-9999" required><div class="err"></div></div>
+                <div class="field"><label for="f-email">E-mail</label><input id="f-email" name="email" type="email" autocomplete="email" required><div class="err"></div></div>
+              </div>
+              <div class="field"><label for="f-notes">Observações <span class="opt">(opcional)</span></label><textarea id="f-notes" name="notes" placeholder="Alergias, preferências, dúvidas…"></textarea></div>
+              <button class="btn btn--gold" type="submit" id="confirm-btn" style="width:100%">Confirmar agendamento</button>
+            </form>
+          </div>
+        </section>
+
+        <div class="wizard-nav" id="wizard-nav">
+          <button class="btn btn--ghost" type="button" id="back-btn" hidden>← Voltar</button>
+          <button class="btn btn--dark" type="button" id="next-btn" disabled>Continuar →</button>
+        </div>
+
+        <section class="success" id="success" hidden aria-live="polite">
+          <div class="check" aria-hidden="true">✓</div>
+          <h2>Agendamento confirmado!</h2>
+          <p class="lead">Guarde o seu código. Você vai precisar dele para consultar ou cancelar.</p>
+          <div class="code" id="success-code"></div>
+          <div class="summary"><dl id="success-summary"></dl></div>
+          <div class="success-actions">
+            <a class="btn btn--gold" href="/meus-agendamentos.html">Ver meus agendamentos</a>
+            <a class="btn btn--ghost" href="/">Voltar ao início</a>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container"><p class="copy" style="border:0;margin:0;padding:0">© <span data-year></span> Lumière Estética Avançada. Todos os direitos reservados.</p></div>
+  </footer>
+
+  <script src="/js/common.js"></script>
+  <script src="/js/agendar.js"></script>
+</body>
+</html>

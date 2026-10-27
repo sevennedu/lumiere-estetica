@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 140" width="400" height="140" role="img" aria-label="Lumière Estética">
+  <defs>
+    <linearGradient id="logoGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#C9A27E"/>
+      <stop offset="1" stop-color="#B08B68"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="url(#logoGold)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M24 116V60a32 32 0 0 1 64 0v56"/>
+    <path d="M56 116V90"/>
+  </g>
+  <circle cx="56" cy="62" r="13" fill="#E8CFC4"/>
+  <circle cx="56" cy="62" r="13" fill="none" stroke="#C9A27E" stroke-width="1.5"/>
+  <path d="M56 104c-10 0-17-6-17-15 10 0 17 6 17 15Z" fill="#E8CFC4"/>
+  <path d="M56 110c9 0 16-6 16-14-9 0-16 5-16 14Z" fill="#E8CFC4"/>
+  <text x="126" y="72" font-family="'Cormorant Garamond',Georgia,'Times New Roman',serif" font-size="54" letter-spacing="1" fill="#2E2A28">Lumière</text>
+  <text x="130" y="100" font-family="Inter,Helvetica,Arial,sans-serif" font-size="14" letter-spacing="8" fill="#C9A27E">ESTÉTICA</text>
+</svg>

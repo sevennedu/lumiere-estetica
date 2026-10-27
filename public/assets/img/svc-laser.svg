@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" role="img" aria-label="Depilação a laser">
+  <rect width="600" height="400" fill="#FAF6F2"/>
+  <circle cx="300" cy="182" r="136" fill="#F4E7DE"/>
+  <circle cx="300" cy="182" r="136" fill="none" stroke="#C9A27E" stroke-width="1.2" opacity=".45"/>
+  <path d="M56 126V86a30 30 0 0 1 30-30h40" fill="none" stroke="#C9A27E" stroke-width="1.5" opacity=".5"/>
+  <path d="M544 274v40a30 30 0 0 1-30 30h-40" fill="none" stroke="#C9A27E" stroke-width="1.5" opacity=".5"/>
+
+  <g transform="translate(262 148) rotate(-40)">
+    <rect x="-15" y="-64" width="30" height="118" rx="13" fill="#FAF6F2" stroke="#C9A27E" stroke-width="2.5"/>
+    <rect x="-8" y="-54" width="16" height="26" rx="8" fill="#E8CFC4"/>
+    <path d="M-15 8h30" stroke="#C9A27E" stroke-width="1.5" opacity=".55"/>
+    <path d="M-8 54h16l-3 15h-10Z" fill="#C9A27E"/>
+    <path d="M-5-44v10" stroke="#FAF6F2" stroke-width="2" stroke-linecap="round" opacity=".8"/>
+  </g>
+
+  <g fill="none" stroke="#C9A27E" stroke-linecap="round">
+    <path d="M303 199 392 316" stroke-width="2" stroke-dasharray="5 8"/>
+    <path d="M303 199 368 318" stroke-width="1.2" opacity=".55"/>
+    <path d="M303 199 408 292" stroke-width="1.2" opacity=".55"/>
+  </g>
+  <path d="M304 200c4 2 6 6 5 10M306 205c4 2 6 6 5 10" fill="none" stroke="#C9A27E" stroke-width="1.5" stroke-linecap="round" opacity=".7"/>
+
+  <path d="M200 320c80-30 200-30 280 0v60H200Z" fill="#F6EAE2"/>
+  <path d="M200 320c80-30 200-30 280 0" fill="none" stroke="#C9A27E" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M244 330c50-16 112-16 162 0" fill="none" stroke="#FAF6F2" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+
+  <g fill="#C9A27E">
+    <path d="M0-13C2-3 3-2 13 0 3 2 2 3 0 13-2 3-3 2-13 0-3-2-2-3 0-13Z" transform="translate(392 312)"/>
+    <path d="M0-8C1-2 2-2 8 0 2 2 2 2 0 8-2 2-2 2-8 0-2-2-2-2 0-8Z" transform="translate(428 140)" opacity=".7"/>
+    <path d="M0-6C1-2 1-1 6 0 1 1 1 2 0 6-1 2-1 1-6 0-1-1-1-2 0-6Z" transform="translate(180 108)" opacity=".6"/>
+  </g>
+  <circle cx="350" cy="150" r="3.5" fill="#C9A27E" opacity=".45"/>
+</svg>

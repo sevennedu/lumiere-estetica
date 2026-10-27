@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" role="img" aria-label="Limpeza de pele profunda">
+  <rect width="600" height="400" fill="#FAF6F2"/>
+  <circle cx="300" cy="182" r="136" fill="#F4E7DE"/>
+  <circle cx="300" cy="182" r="136" fill="none" stroke="#C9A27E" stroke-width="1.2" opacity=".45"/>
+  <path d="M56 126V86a30 30 0 0 1 30-30h40" fill="none" stroke="#C9A27E" stroke-width="1.5" opacity=".5"/>
+  <path d="M544 274v40a30 30 0 0 1-30 30h-40" fill="none" stroke="#C9A27E" stroke-width="1.5" opacity=".5"/>
+
+  <path d="M300 74C300 74 234 154 234 202a66 66 0 0 0 132 0c0-48-66-128-66-128Z" fill="#E8CFC4" stroke="#C9A27E" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M266 200c0 20 15 36 34 36" fill="none" stroke="#FAF6F2" stroke-width="5" stroke-linecap="round" opacity=".9"/>
+  <path d="M300 96c0 0-38 54-38 92" fill="none" stroke="#F6EAE2" stroke-width="4" stroke-linecap="round" opacity=".6"/>
+
+  <g fill="none" stroke="#C9A27E" stroke-width="2">
+    <circle cx="356" cy="118" r="10"/>
+    <circle cx="378" cy="92" r="6"/>
+    <circle cx="390" cy="124" r="4"/>
+  </g>
+  <circle cx="338" cy="86" r="4" fill="#C9A27E" opacity=".65"/>
+
+  <path d="M224 296c26 12 126 12 152 0" fill="none" stroke="#C9A27E" stroke-width="2" stroke-linecap="round" opacity=".5"/>
+  <path d="M242 314c20 8 96 8 116 0" fill="none" stroke="#C9A27E" stroke-width="1.5" stroke-linecap="round" opacity=".3"/>
+  <path d="M204 300c-8-12-20-16-32-14M396 300c8-12 20-16 32-14" fill="none" stroke="#E8CFC4" stroke-width="2.5" stroke-linecap="round"/>
+
+  <path d="M0-10C2-3 3-2 10 0 3 2 2 3 0 10-2 3-3 2-10 0-3-2-2-3 0-10Z" transform="translate(416 196)" fill="#C9A27E" opacity=".7"/>
+</svg>
