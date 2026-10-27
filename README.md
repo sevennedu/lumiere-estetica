@@ -1,5 +1,7 @@
 # Lumière Estética — site com agendamento online
 
+**Site no ar:** https://lumiere-estetica.lumiere-estetica.workers.dev
+
 ## Como rodar
 ```
 npm install
