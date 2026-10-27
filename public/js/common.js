@@ -19,6 +19,8 @@ async function api(path, { method = 'GET', body, token } = {}) {
   return data;
 }
 
+// Fotos .jpg substituíram as ilustrações .svg (logo e favicon continuam svg)
+const photo = (src) => String(src || '').replace(/\.svg$/i, '.jpg');
 const brl = (v) => Number(v).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const fmtDate = (iso) => {

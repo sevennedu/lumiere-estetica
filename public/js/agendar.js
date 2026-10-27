@@ -57,7 +57,7 @@
   function renderServices() {
     $('services-list').innerHTML = services.map((s) => `
       <button type="button" class="option" data-id="${esc(s.id)}" aria-pressed="${state.service && state.service.id === s.id}">
-        <img src="${esc(s.image)}" alt="">
+        <img src="${esc(photo(s.image))}" alt="" width="68" height="68">
         <span><b>${esc(s.name)}</b><small>${fmtDuration(s.duration_min)}</small><span class="opt-price">${brl(s.price)}</span></span>
       </button>`).join('');
   }
@@ -79,7 +79,7 @@
       if (!pros.length) { box.innerHTML = '<p class="empty">Nenhuma profissional disponível para este serviço.</p>'; return; }
       box.innerHTML = pros.map((p) => `
         <button type="button" class="option option--pro" data-id="${esc(p.id)}" aria-pressed="${state.pro && state.pro.id === p.id}">
-          <img src="${esc(p.photo)}" alt="">
+          <img src="${esc(photo(p.photo))}" alt="" width="68" height="68">
           <span><b>${esc(p.name)}</b><small>${esc(p.role)}</small></span>
         </button>`).join('');
       box._pros = pros;

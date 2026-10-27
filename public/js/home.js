@@ -7,7 +7,7 @@
     const services = await api('/services');
     sGrid.innerHTML = services.map((s, i) => `
       <article class="card reveal" data-delay="${i % 3}">
-        <div class="card-img"><img src="${esc(s.image)}" alt="${esc(s.name)}" loading="lazy"></div>
+        <div class="card-img"><img src="${esc(photo(s.image))}" alt="${esc(s.name)}" loading="lazy" width="624" height="416"></div>
         <div class="card-body">
           <span class="card-cat">${esc(s.category)}</span>
           <h3>${esc(s.name)}</h3>
@@ -25,7 +25,7 @@
     const pros = await api('/professionals');
     tGrid.innerHTML = pros.map((p, i) => `
       <article class="team-card reveal" data-delay="${i % 3}">
-        <div class="avatar"><img src="${esc(p.photo)}" alt="${esc(p.name)}" loading="lazy"></div>
+        <div class="avatar"><img src="${esc(photo(p.photo))}" alt="${esc(p.name)}, ${esc(p.role)}" loading="lazy" width="512" height="512"></div>
         <h3>${esc(p.name)}</h3>
         <div class="role">${esc(p.role)}</div>
         <p>${esc(p.bio)}</p>

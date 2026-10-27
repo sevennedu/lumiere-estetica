@@ -80,6 +80,11 @@ function initDb() {
   if (!countRow || countRow.count === 0) {
     seedDb();
   }
+
+  db.exec(`
+    UPDATE services SET image = REPLACE(image, '.svg', '.jpg') WHERE image LIKE '%.svg';
+    UPDATE professionals SET photo = REPLACE(photo, '.svg', '.jpg') WHERE photo LIKE '%.svg';
+  `);
 }
 
 function seedDb() {
@@ -91,7 +96,7 @@ function seedDb() {
       description: 'Higienização profunda com extração delicada, alta frequência e máscara calmante personalizada para renovar a luminosidade da pele.',
       duration_min: 60,
       price: 180.0,
-      image: '/assets/img/svc-limpeza.svg'
+      image: '/assets/img/svc-limpeza.jpg'
     },
     {
       id: 2,
@@ -100,7 +105,7 @@ function seedDb() {
       description: 'Microdermoabrasão suave que promove renovação celular, uniformiza a textura cutânea e atenua poros dilatados e linhas finas.',
       duration_min: 60,
       price: 220.0,
-      image: '/assets/img/svc-peeling.svg'
+      image: '/assets/img/svc-peeling.jpg'
     },
     {
       id: 3,
@@ -109,7 +114,7 @@ function seedDb() {
       description: 'Protocolo personalizado com preenchedores e bioestimuladores para realçar contornos faciais com equilíbrio, simetria e naturalidade.',
       duration_min: 90,
       price: 1850.0,
-      image: '/assets/img/svc-harmonizacao.svg'
+      image: '/assets/img/svc-harmonizacao.jpg'
     },
     {
       id: 4,
@@ -118,7 +123,7 @@ function seedDb() {
       description: 'Aplicação precisa para suavizar linhas de expressão e prevenir rugas dinâmicas, preservando a expressão natural do rosto.',
       duration_min: 30,
       price: 1100.0,
-      image: '/assets/img/svc-botox.svg'
+      image: '/assets/img/svc-botox.jpg'
     },
     {
       id: 5,
@@ -127,7 +132,7 @@ function seedDb() {
       description: 'Definição de contorno, hidratação profunda e volume sutil com ácido hialurônico de alta tecnologia e biocompatibilidade.',
       duration_min: 60,
       price: 1350.0,
-      image: '/assets/img/svc-labial.svg'
+      image: '/assets/img/svc-labial.jpg'
     },
     {
       id: 6,
@@ -136,7 +141,7 @@ function seedDb() {
       description: 'Massagem com manobras suaves e ritmadas que reduz a retenção hídrica, melhora a circulação e promove bem-estar imediato.',
       duration_min: 60,
       price: 160.0,
-      image: '/assets/img/svc-drenagem.svg'
+      image: '/assets/img/svc-drenagem.jpg'
     },
     {
       id: 7,
@@ -145,7 +150,7 @@ function seedDb() {
       description: 'Manobras intensas e localizadas para remodelar o contorno corporal, ativar o metabolismo local e melhorar a firmeza da pele.',
       duration_min: 60,
       price: 175.0,
-      image: '/assets/img/svc-massagem.svg'
+      image: '/assets/img/svc-massagem.jpg'
     },
     {
       id: 8,
@@ -154,7 +159,7 @@ function seedDb() {
       description: 'Tecnologia de ponteira resfriada para redução progressiva e duradoura dos pelos com máximo conforto para todos os fototipos.',
       duration_min: 30,
       price: 240.0,
-      image: '/assets/img/svc-laser.svg'
+      image: '/assets/img/svc-laser.jpg'
     }
   ];
 
@@ -164,7 +169,7 @@ function seedDb() {
       name: 'Dra. Helena Duarte',
       role: 'Biomédica Esteta',
       bio: 'Especialista em harmonização orofacial e procedimentos injetáveis minimamente invasivos, com foco em resultados elegantes e naturais.',
-      photo: '/assets/img/prof-helena.svg',
+      photo: '/assets/img/prof-helena.jpg',
       serviceIds: [2, 3, 4, 5, 8]
     },
     {
@@ -172,7 +177,7 @@ function seedDb() {
       name: 'Dra. Camila Rocha',
       role: 'Dermatologista',
       bio: 'Médica dermatologista dedicada ao rejuvenescimento global, protocolos clínicos avançados e tecnologias a laser.',
-      photo: '/assets/img/prof-camila.svg',
+      photo: '/assets/img/prof-camila.jpg',
       serviceIds: [1, 2, 3, 4, 5, 8]
     },
     {
@@ -180,7 +185,7 @@ function seedDb() {
       name: 'Juliana Prado',
       role: 'Esteticista',
       bio: 'Especialista em cosmetologia avançada e tratamentos faciais e corporais de alto desempenho para saúde e vitalidade da pele.',
-      photo: '/assets/img/prof-juliana.svg',
+      photo: '/assets/img/prof-juliana.jpg',
       serviceIds: [1, 2, 6, 7, 8]
     },
     {
@@ -188,7 +193,7 @@ function seedDb() {
       name: 'Marina Alves',
       role: 'Fisioterapeuta Dermatofuncional',
       bio: 'Fisioterapeuta referência em reabilitação estética, drenagem linfática especializada, remodelagem corporal e laserterapia.',
-      photo: '/assets/img/prof-marina.svg',
+      photo: '/assets/img/prof-marina.jpg',
       serviceIds: [1, 6, 7, 8]
     }
   ];
